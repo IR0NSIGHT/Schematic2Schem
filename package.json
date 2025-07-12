@@ -1,0 +1,45 @@
+{
+  "name": "schematic2schem",
+  "version": "1.2.2",
+  "type": "commonjs",
+  "description": "Converts .schematic files (< 1.13) to .schem files (1.13+)",
+  "main": "dist/index.js",
+  "bin": "main_cjs.js",
+  "pkg": {
+    "scripts": "main_cjs.js",
+    "targets": [
+      "node16-linux-x64",
+      "node16-macos-x64",
+      "node16-win-x64"
+    ]
+  },
+  "scripts": {
+    "build": "esbuild main.js --platform=node --bundle --outfile=main_cjs.js --format=cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McJeffr/schematic2schem.git"
+  },
+  "keywords": [
+    "minecraft",
+    "nbt",
+    "schem",
+    "schematic",
+    "schematic2schem"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "McJeffr",
+  "license": "MIT",
+  "dependencies": {
+    "path": "^0.12.7",
+    "prismarine-nbt": "^1.4.0",
+    "prompts": "^2.4.2",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.5",
+    "nexe": "^4.0.0-rc.2"
+  }
+}
