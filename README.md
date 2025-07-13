@@ -4,3 +4,10 @@ Schematic2Schem is a command line tool for converting MCEdit Schematics (.schema
 
 It is based on https://github.com/McJeffr/schematic2schem and was commissioned by @Lans to a freelancer for the worldpainter discord community.
 Lans asked me to upload it to github, to make it publically avaialbe for everyone.
+
+# How do i use it
+- download the .exe file
+- run the .exe file
+- the program starts in a command line and tells you what to do, selecting the folder to convert the files in etc
+
+
